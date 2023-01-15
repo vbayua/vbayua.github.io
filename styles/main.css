@@ -1,0 +1,33 @@
+body{
+  font-family: monospace, sans-serif;
+  background-color: ghostwhite;
+  padding: 8px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #0017ee;
+}
+
+a:hover {
+  color:darkcyan;
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
+.description {
+  text-align: justify;
+  max-width: 640px;
+}
